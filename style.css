@@ -1,0 +1,251 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+  color: black;
+  letter-spacing: normal;
+}
+
+/*Header, Content, and Footer Shared Stylings*/
+.container{
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/*Because Header is fixed must add eplicit
+spacing to ensure id (#) links just to correct spot*/
+.anchor{
+  display: block;
+  height: 160px; /*same height as header*/
+  margin-top: -160px; /*same height as header*/
+  visibility: hidden;
+}
+
+/*Header Section*/
+#header{
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  background-color: #1E2020;
+  margin-bottom: 50px;
+  position:fixed;
+  overflow:
+}
+
+#header-title{
+  margin: 0 auto;
+  display: block;
+  font-size: 5.5em;
+}
+
+#header-links{
+  height: auto;
+  padding: 1.0em;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  list-style-type: none;
+}
+
+#header-links li{
+  display: inline;
+}
+
+#header a{
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: #1E2020;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+#header a:hover{
+  background-color: white;
+  color: #1E2020;
+}
+
+/*Content Section*/
+#content{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#content img{
+  -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
+  width: 35%;
+  right: 0;
+  height:auto;
+  float: right;
+  border-radius: 30px;
+  position: fixed;
+  margin: 180px 30px 0 auto;
+}
+
+#content > .topics{
+  margin-top: 180px;
+}
+
+.topics{
+  position: static;
+  left: 0;
+  margin: 0 auto 30px auto;
+  float: left;
+  width: 55%;
+  padding: 0 30px;
+}
+
+.topics div{
+  margin: 0 auto 60px auto;
+}
+
+.topics h2{
+  clear: both;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #668D8D;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.topics h3{
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  color: black;
+}
+
+.topics h4{
+  font-size: 1.0em;
+  font-weight: 525;
+  margin: 0 auto;
+  padding: 0;
+  color: black;
+}
+
+.topics h5{
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 0;
+  color: black;
+}
+
+.topics p{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #606464;
+  padding: 20px 0 30px 0;
+  margin: 0 auto;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.topics ul{
+  display: block;
+  list-style-type: none;
+  float: right;
+  margin: 5px auto 70px auto;
+  padding: 0;
+  width: 65%;
+}
+
+.topics li{
+  font-size: 1.3em;
+  font-weight: 500;
+  padding: 7px 0 7px 0;
+  color: #606464;
+  text-align: left;
+  position: relative;
+}
+
+.topics #languages img{
+  width: 90%;
+  height: auto;
+  position:static;
+  margin: 20px auto 70px auto;
+}
+
+.topics #educations img{
+  padding: 0 0;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+  width: 30%;
+  height: auto;
+  clear: right;
+}
+
+.topics #award img{
+  padding: 0 0;
+  margin: 0 auto 70px auto;
+  float: left;
+  position: relative;
+  width: 30%;
+  height: auto;
+  clear: right;
+}
+
+.topics #courses img{
+  padding: 0 0;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+  width: 30%;
+  height: auto;
+  clear: right;
+}
+
+/*Footer Section*/
+#footer{
+  clear: both;
+  width: 100%;
+  height: auto;
+  background-color: #1E2020;
+  position: normal;
+  margin-top: 50px;
+  position:relative;
+}
+
+#footer-title{
+  margin: 0 auto;
+  display: block;
+  font-size: 3.5em;
+  padding-top: 10px;
+}
+
+#footer-links{
+  height: auto;
+  padding: 1.0em;
+  margin: 0 auto;
+  display: block;
+  list-style-type: none;
+  padding-bottom: 30px;
+}
+
+#footer-links li{
+  display: inline;
+}
+
+#footer a{
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #1E2020;
+}
+
+#footer a:hover{
+  background-color: #1E2020;
+  color: white;
+}
